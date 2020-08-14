@@ -12,7 +12,7 @@ def read():
 
 setup(
     name='obmods',
-    version='30',
+    version='2',
     url='https://github.com/bthate/obmods',
     author='Bart Thate',
     author_email='bthate@dds.nl',
