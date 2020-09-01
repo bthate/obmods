@@ -20,6 +20,7 @@ setup(
     long_description=read(),
     license='Public Domain',
     zip_safe=False,
+    install_requires=["ob", "olib"],
     packages=["obmods"],
     namespace_packages=["obmods"],
     classifiers=['Development Status :: 3 - Alpha',
