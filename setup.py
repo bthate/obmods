@@ -1,6 +1,6 @@
-# OB - the object library !
+# OB - write your own command.
 #
-#
+# setup.py
 
 try:
     from setuptools import setup
@@ -12,16 +12,16 @@ def read():
 
 setup(
     name='obmods',
-    version='2',
+    version='3',
     url='https://github.com/bthate/obmods',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="OB is a event handler library and uses a timestamped JSON file backend to provide persistence. no copyright or LICENSE.",
+    description="modules for the OB, write your own commands, program. no copyright or LICENSE. placed in the public domain.",
     long_description=read(),
     license='Public Domain',
     zip_safe=False,
-    packages=["mods"],
-    namespace_packages=["mods"],
+    packages=["obmods"],
+    namespace_packages=["obmods"],
     classifiers=['Development Status :: 3 - Alpha',
                  'License :: Public Domain',
                  'Operating System :: Unix',
